@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    /* background-image:url("bg1.png");
+    background-color: antiquewhite;*/
+    color: antiquewhite;
+}
+
+.sidebar {
+    background-color: rgba(255, 0, 0, 0.781);
+    width: 350px;
+    height: 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar nav {
+    padding: 2px;
+    
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 40px;
+    padding: 40px;
+}
+
+.sidebar nav li a:hover{
+    color: rgb(255, 255, 255);
+}
+.sidebar nav li a.active{
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    /*  background-color: crimson; */
+    width: 87vw;
+}
+
+.container1 {
+    display: flex;
+}
+
+.infocontainer {
+    /*  background-color: cyan;*/
+    height: 68vh;
+    width: 80vw;
+    padding: px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+.devinfo {
+    justify-content: center;
+    font-size: 40px;
+    flex-direction: column;
+    display: flex;
+    /* font-family: 'Mochiy Pop P One', sans-serif;*/
+    font-family: 'Dancing Script', cursive;
+    margin: 70px;
+    padding: 25px;
+}
+
+div.hello {
+    margin: 12px;
+    padding: 7px;
+    font-size: 60px;
+}
+
+div.name {
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 43px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+dev.about {
+    margin: 5px;
+    padding: 0px;
+}
+
+.devpic img {
+    height: 500px;
+    width: 480px;
+    float: right;
+    margin: 9px;
+    border-radius: 30vw;
+}
+h1{
+    font-size: 60px;
+    margin: 25px;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    color: orangered;
+}
+
+p1{
+    font-size: 35px;
+    justify-content: center;
+    font-family: 'Patrick Hand', cursive;
+    margin: 20px;
+    padding: 10px;
+    border: orange;
+}
+.buttons{
+
+    padding: 10px 450px;
+    margin: 0px 25px;
+}
+.buttons button{
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-weight: 30px;
+    margin: 5px;
+    padding: 5px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    align-content: center;
+    background-color: rgb(255, 0, 0);/
+}
+.buttons button:hover{
+    color: rgb(12, 4, 1);
+    background-color: orangered;
+}
+
+
+/*.contactme{
+    background-image: url("git.png");
+    background-image: url("fb.png");
+    background-image: url("insta.png");
+    background-image: url("linkdin.png");
+}
+*/
+.png{
+    background-repeat: no-repeat;
+    width: 500px;
+}
